@@ -1,16 +1,16 @@
-# Exercise 04 - removeFromArray
+# Exercício 04 - RemoverFromArray
 
-Implement a function that takes an array and some other arguments then removes the other arguments from that array:
+Implemente uma função que leva uma matriz e alguns outros argumentos remove os outros argumentos dessa matriz:
 
-```javascript
-removeFromArray([1, 2, 3, 4], 3); // should remove 3 and return [1,2,4]
-```
+`` `JavaScript
+remover de) ([1, 2, 3, 4], 3);// deve remover 3 e retornar [1,2,4]
+`` `
 
-## Hints
+## dicas
 
-The first test on this one is fairly easy, but there are a few things to think about(or google) here for the later tests:
+O primeiro teste neste é bastante fácil, mas há algumas coisas em que pensar (ou Google) aqui para os testes posteriores:
 
-- you can manipulate the original array you pass into the function call or create a new array that is returned as the result.
-- how to remove a single element from an array
-- how to deal with multiple optional arguments in a javascript function
-- For more information, check out MDN's page on [function arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) - scroll down to the bit about `Array.from` or the spread operator. You can also check out MDN's page on [rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
+- Você pode manipular a matriz original que você passa para a chamada de função ou criar uma nova matriz que é retornada como resultado.
+- Como remover um único elemento de uma matriz
+- Como lidar com vários argumentos opcionais em uma função JavaScript
+- Para obter mais informações, consulte a página do MDN nos [argumentos da função] (https://developer.mozilla.org/en-us/docs/web/javascript/reference/functions/arguments) - role para baixo até o bit sobre `Array.From` ou o operador de propagação.Você também pode conferir a página do MDN em [Parâmetros REST] (https://developer.mozilla.org/en-us/docs/web/javascript/reference/functions/rest_parameters).
